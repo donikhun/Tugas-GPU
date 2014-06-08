@@ -1,0 +1,130 @@
+﻿Build started 28/04/2014 18:02:54.
+     1>Project "C:\Users\Doni\Documents\Visual Studio 2013\Projects\testlGL\Program 13\Program 13.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D "#ifdef _MSC_VER" /D "#define _CRT_SECURE_NO_WARNINGS" /D "#endif" /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Program13.cpp
+         Program13.cpp
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(107): error C2144: syntax error : 'char' should be preceded by ';'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(107): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(107): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(107): warning C4229: anachronism used : modifiers on data are ignored
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(107): error C2440: 'initializing' : cannot convert from 'int' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(107): error C2059: syntax error : ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(112): error C2144: syntax error : 'char' should be preceded by ';'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(112): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(112): error C2086: 'int endif' : redefinition
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(107) : see declaration of 'endif'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(112): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(112): warning C4229: anachronism used : modifiers on data are ignored
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(112): error C2440: 'initializing' : cannot convert from 'int' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(112): error C2059: syntax error : ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(118): error C2144: syntax error : 'char' should be preceded by ';'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(118): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(118): error C2086: 'int endif' : redefinition
+                 c:\program files\microsoft visual studio 12.0\vc\include\string.h(107) : see declaration of 'endif'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(118): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(118): warning C4229: anachronism used : modifiers on data are ignored
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(118): error C2440: 'initializing' : cannot convert from 'int' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(118): error C2059: syntax error : ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(175): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(175): warning C4229: anachronism used : modifiers on data are ignored
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(175): error C2491: '_strlwr' : definition of dllimport data not allowed
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(175): error C2440: 'initializing' : cannot convert from 'int' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(175): error C2059: syntax error : ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(210): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(210): warning C4229: anachronism used : modifiers on data are ignored
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(210): error C2491: '_strupr' : definition of dllimport data not allowed
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(210): error C2440: 'initializing' : cannot convert from 'int' to 'char *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(210): error C2059: syntax error : ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(284): error C2144: syntax error : 'wchar_t' should be preceded by ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(284): warning C4229: anachronism used : modifiers on data are ignored
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(284): error C2491: 'wcscat' : definition of dllimport data not allowed
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(284): error C2440: 'initializing' : cannot convert from 'int' to 'wchar_t *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(284): error C2059: syntax error : ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(294): error C2144: syntax error : 'wchar_t' should be preceded by ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(294): warning C4229: anachronism used : modifiers on data are ignored
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(294): error C2491: 'wcscpy' : definition of dllimport data not allowed
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(294): error C2440: 'initializing' : cannot convert from 'int' to 'wchar_t *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(294): error C2059: syntax error : ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(355): error C2144: syntax error : 'wchar_t' should be preceded by ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(355): warning C4229: anachronism used : modifiers on data are ignored
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(355): error C2491: '_wcslwr' : definition of dllimport data not allowed
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(355): error C2440: 'initializing' : cannot convert from 'int' to 'wchar_t *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(355): error C2059: syntax error : ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(361): error C2144: syntax error : 'wchar_t' should be preceded by ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(361): warning C4229: anachronism used : modifiers on data are ignored
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(361): error C2491: '_wcsupr' : definition of dllimport data not allowed
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(361): error C2440: 'initializing' : cannot convert from 'int' to 'wchar_t *'
+                 Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\program files\microsoft visual studio 12.0\vc\include\string.h(361): error C2059: syntax error : ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\stdlib.h(528): error C2144: syntax error : 'wchar_t' should be preceded by ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\stdlib.h(528): error C2448: 'mbstowcs' : function-style initializer appears to be a function definition
+     1>c:\program files\microsoft visual studio 12.0\vc\include\stdlib.h(528): error C2062: type 'char' unexpected
+     1>c:\program files\microsoft visual studio 12.0\vc\include\stdlib.h(528): error C2059: syntax error : ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\stdlib.h(575): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft visual studio 12.0\vc\include\stdlib.h(575): error C2448: 'wcstombs' : function-style initializer appears to be a function definition
+     1>c:\program files\microsoft visual studio 12.0\vc\include\stdlib.h(575): error C2062: type 'wchar_t' unexpected
+     1>c:\program files\microsoft visual studio 12.0\vc\include\stdlib.h(575): error C2059: syntax error : ')'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(1522): error C2061: syntax error : identifier 'MULTI_QI'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(1608): error C2061: syntax error : identifier 'MULTI_QI'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(1612): error C2061: syntax error : identifier 'MULTI_QI'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(2292): error C2061: syntax error : identifier 'STATSTG'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(2494): error C2146: syntax error : missing ';' before identifier 'dataRepresentation'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(2494): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(2502): error C2143: syntax error : missing ';' before '*'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(2515): error C2061: syntax error : identifier 'RPCOLEMESSAGE'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(2521): error C2061: syntax error : identifier 'RPCOLEMESSAGE'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(2527): error C2061: syntax error : identifier 'RPCOLEMESSAGE'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(2792): error C2061: syntax error : identifier 'RPCOLEMESSAGE'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(2800): error C2061: syntax error : identifier 'RPCOLEMESSAGE'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(2806): error C2061: syntax error : identifier 'RPCOLEMESSAGE'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(2972): error C2061: syntax error : identifier 'RPCOLEMESSAGE'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(2978): error C2061: syntax error : identifier 'RPCOLEMESSAGE'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(2986): error C2061: syntax error : identifier 'RPCOLEMESSAGE'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(2990): error C2061: syntax error : identifier 'RPCOLEMESSAGE'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(2998): error C2061: syntax error : identifier 'RPCOLEMESSAGE'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(3006): error C2061: syntax error : identifier 'RPCOLEMESSAGE'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(3012): error C2061: syntax error : identifier 'RPCOLEMESSAGE'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(3216): error C2061: syntax error : identifier 'RPCOLEMESSAGE'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(3406): error C2061: syntax error : identifier 'RPCOLEMESSAGE'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(3926): error C2143: syntax error : missing ';' before '*'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(3964): error C2143: syntax error : missing ';' before '*'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(3964): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(4315): error C2061: syntax error : identifier 'RPCOPT_PROPERTIES'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(4323): error C2061: syntax error : identifier 'RPCOPT_PROPERTIES'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(4484): error C2061: syntax error : identifier 'GLOBALOPT_PROPERTIES'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(4490): error C2061: syntax error : identifier 'GLOBALOPT_PROPERTIES'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(5699): error C2061: syntax error : identifier 'RPCOLEMESSAGE'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(7212): error C2061: syntax error : identifier 'APTTYPE'
+     1>c:\program files\windows kits\8.1\include\um\objidlbase.h(7216): error C2061: syntax error : identifier 'THDTYPE'
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(397): error C2061: syntax error : identifier 'LPMALLOC'
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(412): error C2061: syntax error : identifier 'LPSTREAM'
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(418): error C2065: 'LPSTREAM' : undeclared identifier
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(418): error C2146: syntax error : missing ')' before identifier 'pstm'
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(418): warning C4229: anachronism used : modifiers on data are ignored
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(418): error C2491: 'GetHGlobalFromStream' : definition of dllimport data not allowed
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(420): error C2059: syntax error : ')'
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(515): error C2065: 'APTTYPE' : undeclared identifier
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(515): error C2146: syntax error : missing ')' before identifier 'aptType'
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(515): warning C4229: anachronism used : modifiers on data are ignored
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(515): error C2491: 'CoGetDefaultContext' : definition of dllimport data not allowed
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(518): error C2059: syntax error : ')'
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(537): error C2065: 'APTTYPE' : undeclared identifier
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(537): error C2065: 'pAptType' : undeclared identifier
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(538): error C2065: 'APTTYPEQUALIFIER' : undeclared identifier
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(539): error C2065: 'pAptQualifier' : undeclared identifier
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(539): warning C4229: anachronism used : modifiers on data are ignored
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(539): error C2491: 'CoGetApartmentType' : definition of dllimport data not allowed
+     1>c:\program files\windows kits\8.1\include\um\combaseapi.h(561): fatal error C1903: unable to recover from previous error(s); stopping compilation
+     1>Done Building Project "C:\Users\Doni\Documents\Visual Studio 2013\Projects\testlGL\Program 13\Program 13.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.72
